@@ -6,7 +6,7 @@ $('#add-btn').addEventListener('click', e => {
     
     box.className = 'todoItem';
     box.classList.add = 'active';
-    box.innerHTML = "+ " + text;
+    box.innerHTML = text;
     box.style.cursor = 'pointer';
     
     $('.todoList').appendChild(box);
